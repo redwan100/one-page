@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 2px #0075ff; /* Webkit browsers */
+  text-stroke: 2px #0075ff; /* Standard syntax */
+  -webkit-text-fill-color: transparent; /* Make the inside of the text transparent */
+}
